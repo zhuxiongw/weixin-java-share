@@ -1,0 +1,27 @@
+
+server:
+  port: 9550
+  #微信token
+wechat:
+  token: zxw
+  appId: wx6008ae31bfd1f7fa
+  appSecret: e913a3cad63c9bedebdba2f7ffeaccad
+  accessTokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+spring:
+  cache:
+    type: redis
+  jackson:
+    serialization: true
+  redis:
+    database: 1
+    # server host1
+    host: 127.0.0.1
+    # server password
+    #spring.redis.password=
+    #connection port
+    port: 6379
+    # pool settings ...
+    max-idle: 8
+    min-idle: 0
+    max-active: 8
+    max-wait: -1
