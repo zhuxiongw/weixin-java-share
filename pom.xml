@@ -212,8 +212,7 @@
                     </excludes>
                     <fork>true</fork>
                     <maxAttempts>500</maxAttempts>
-                    <mainClass>com.hopebank.queuing.AppQueuingCounter</mainClass>
-                    <!--mainClass>com.hopebank.queuing.AppQueuingCustom</mainClass-->
+                    
                 </configuration>
             </plugin>
 
