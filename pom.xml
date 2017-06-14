@@ -213,6 +213,7 @@
                     <fork>true</fork>
                     <maxAttempts>500</maxAttempts>
                          <mainClass>com.wx.java.share.JavaShareApplication</mainClass>
+                          <mainClass>com.hopebank.java.share.JavaShareApplication</mainClass>
                 </configuration>
             </plugin>
 
